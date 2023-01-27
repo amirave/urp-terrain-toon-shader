@@ -13,3 +13,5 @@ When this inhevitably breaks down in the next Unity version, here's a basic expl
   - *(cloned from URP/Shaders/Terrain/TerrainLitInput.hlsl)*
 - ToonTerrainPasses.hlsl: contains the actual calculations. i used here the same triplanar mapping and cutoff algorithms shown in the original video.  
   - *(cloned from URP/Shaders/Terrain/TerrainLitPasses.hlsl)*
+
+You can always diff the files against their originals to see exactly what I changed
