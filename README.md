@@ -8,8 +8,8 @@ When this inhevitably breaks down in the next Unity version, here's a basic expl
 - ToonTerrain.shader: changed the includes and dependencies from URP's shaders to the new shaders we cloned.  
   - *(cloned from URP/Shaders/Terrain/TerrainLit.shader)*
 - ToonTerrainAdd.shader: this is where we define the new variables we need, like the wall texture, its size, tiling and sampler. also some more includes n stuff  
-  - *(clone from URP/Shaders/Terrain/TerrainLitAdd.shader)*
+  - *(cloned from URP/Shaders/Terrain/TerrainLitAdd.shader)*
 - ToonTerrainInput.hlsl: the variables are defined here again, not sure why (:  
   - *(cloned from URP/Shaders/Terrain/TerrainLitInput.hlsl)*
 - ToonTerrainPasses.hlsl: contains the actual calculations. i used here the same triplanar mapping and cutoff algorithms shown in the original video.  
-  - *(clone from URP/Shaders/Terrain/TerrainLitPasses.hlsl)*
+  - *(cloned from URP/Shaders/Terrain/TerrainLitPasses.hlsl)*
