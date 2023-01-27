@@ -87,8 +87,8 @@ Shader "Hidden/ToonTerrain (Add Pass)"
             #pragma shader_feature_local _TERRAIN_INSTANCED_PERPIXEL_NORMAL
             #define TERRAIN_SPLAT_ADDPASS
 
-            #include "Assets/ToonTerrain/ToonTerrainInput.hlsl"
-            #include "Assets/ToonTerrain/ToonTerrainPasses.hlsl"
+            #include "ToonTerrainInput.hlsl"
+            #include "ToonTerrainPasses.hlsl"
             ENDHLSL
         }
 
